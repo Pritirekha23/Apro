@@ -6,7 +6,6 @@ import './style/Home.css'
 import Typography from '@mui/material/CardActionArea';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import CardActionArea from '@mui/material/CardMedia'; import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 

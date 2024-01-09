@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar as BootstrapNavbar, Nav } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
 import LogoImage from "./assets/logoap.jpeg";
 import './style/Navbar.css'
 
@@ -19,9 +20,9 @@ const Navbar = () => {
               Air Pro
             </div> */}
         </BootstrapNavbar.Brand>
-        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
-        <BootstrapNavbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto navbar-nam"> {/* Centering the NavLinks */}
+        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav " />
+        <BootstrapNavbar.Collapse id="basic-navbar-nav ">
+          <Nav className="mx-auto navbar-nam "> {/* Centering the NavLinks */}
             <Nav.Link href="/" className="nav-link text-white">Home</Nav.Link>
             <span className="mx-3"></span>
             <Nav.Link href="/Menu" className="nav-link text-white">Menu</Nav.Link>
