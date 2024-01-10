@@ -6,7 +6,9 @@ import './style/Home.css'
 import Typography from '@mui/material/CardActionArea';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardActionArea from '@mui/material/CardMedia'; import { Link } from 'react-router-dom';
+import CardActionArea from '@mui/material/CardMedia'; 
+import CardMedia from '@mui/material/CardMedia';
+import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 
 const cardData = [
@@ -82,7 +84,7 @@ const Home = () => {
                   style={{ height: '150' }} // Adjust image height and width of the card here 
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div" className='home-page-image-heading'>
+                  <Typography variant="h5" component="div" className='home-page-image-heading'>
                     {card.heading}
                   </Typography><hr />
                   <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>
