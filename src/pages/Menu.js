@@ -1,66 +1,10 @@
 import React from 'react';
 import './style/Menu.css'
 // import { Link } from 'react-router-dom';
-import { Grid, Card, CardActionArea, CardContent, Typography } from '@mui/material';
+import { Grid, Card, CardActionArea, CardContent, Typography,CardMedia } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 
-// const allmenu = [
-
-//   {
-//     title: "Reciprocating Air Compressor",
-//     data_1: "Build web applications using Django framework.",
-//     data_2: "Build web applications using Django framework.",
-//     data_3: "Build web applications using Django framework.",
-//     data_4: "Build web applications using Django framework."
-//   },
-//   {
-//     title: "Ingersoll Rand Type 30 Parts",
-//     data_1: "Master front-end and back-end web development.",
-//     data_2: "Build web applications using Django framework.",
-//     data_3: "Build web applications using Django framework.",
-//     data_4: "Build web applications using Django framework."
-//   },
-//   {
-//     title: "Ingersoll Rand ESV Parts",
-//     data_1: "Explore data analysis and visualization.",
-//     data_2: "Build web applications using Django framework.",
-//     data_3: "Build web applications using Django framework.",
-//     data_4: "Build web applications using Django framework."
-//   },
-//   {
-//     title: "Ingersoll Rand Type 30 NL Parts",
-//     data_1: "Study machine learning and artificial intelligence.",
-//     data_2: "Build web applications using Django framework.",
-//     data_3: "Build web applications using Django framework.",
-//     data_4: "Build web applications using Django framework."
-//   },
-//   {
-//     title: "Ingersoll Rand Compressor Parts",
-//     data_1: "Study machine learning and artificial intelligence.",
-//     data_2: "Build web applications using Django framework.",
-//     data_3: "Build web applications using Django framework.",
-//     data_4: "Build web applications using Django framework."
-//   },
-//   {
-//     title: "Atlas Copcoo Compressor Parts",
-//     data_1: "Study machine learning and artificial intelligence.",
-//     data_2: "Build web applications using Django framework.",
-//     data_3: "Build web applications using Django framework.",
-//     data_4: "Build web applications using Django framework."
-//   },
-//   {
-//     title: "Chicago pneumatic Air Compresssor Parts",
-//     data_1: "Study machine learning and artificial intelligence.",
-//     data_2: "Build web applications using Django framework.",
-//     data_3: "Build web applications using Django framework.",
-//     data_4: "Build web applications using Django framework.",
-//     data_5: "Build web applications using Django framework.",
-//     data_6: "Build web applications using Django framework.",
-//     data_7: "Build web applications using Django framework."
-//   },
-
-// ];
 
 const allmenuData = [
   {
@@ -118,14 +62,37 @@ const allmenuData = [
     data_13: 'IR 5 * 4 * 7 PHE NL',
     data_14: 'IR 12 * 7 * 7 PHE7 NL-Pack',
   },
+
   {
     heading: 'Reciprocating Air Compressor',
-    data_1: 'Two Stage Piston Compressor',
-    data_2: 'Multi Stage Piston Compressor',
-    data_3: 'Vacuum Compressor',
-    data_4: 'Non-Lubricated Two stage Bar 8 Bar Air Comp',
-    data_5: 'Non-Lubricated Three Stage PET Comp',
+
+    data_1: 
+    {
+      title:'Two Stage Piston Compressor',
+      pageUrl:'./pages/RAC/Mspc.js',
+    },
+     data_2:
+    {
+      title: 'Multi Stage Piston Compressor',
+      pageUrl:'./pages/RAC/Tspc.js',
+    },
+    
+    data_3:
+    {
+      title:'Vacuum Compressor',
+      pageUrl:'./pages/RAC/Vc.js',
+    } ,
+    data_4: 
+    {
+      title:'Non-Lubricated Two stage Bar 8 Bar Air Comp',
+      pageUrl:'./pages/RAC/Nltsbac.js',
+    },
+    data_5: {
+      title:'Non-Lubricated Three Stage PET Comp',
+      pageUrl:'./pages/RAC/Nltspc',
+    }
   },
+  
   {
 
     heading: "Chicago Pneumatic Air Compressor Parts",
@@ -138,36 +105,52 @@ const allmenuData = [
   {
     heading: ' Ingersoll Rand Type 30 NL Parts',
     data_1: 'IR 5T2NL Parts',
-    data_12: 'IR 10T3NL Parts',
+    data_2: 'IR 10T3NL Parts',
   },
   {
 
     heading: "Atlas Copco Compressor Parts",
-    data_14: 'Air Copco VT 4 Parts',
+    data_1: 'Air Copco VT 4 Parts',
   },
 
 
 
 ];
 
+
 const Menu = () => {
 
   return (
-    <Grid container className="mn m-5" spacing={3} >
-      {allmenuData.map((allmenuData, index) => (
-        <Grid item xs={12} sm={6} md={4} key={index}>
-          <Card sx={{ maxWidth: 345}} className="menucard">
 
-            <CardActionArea >
+    <Grid container className="mn m-5" spacing={3} >
+      {allmenuData.map((menuItem, index) => (
+        <Grid item xs={12} sm={6} md={4} key={index}>
+          <Card sx={{ maxWidth: 345 , backgroundColor: 'lightpink' }} className="menucard">
+
+            <CardActionArea className='menucardaction'>
               <CardContent className='cardContent'>
 
                 <Typography  variant="h5" component="div"  className='headingofmenu'>
-                  {allmenuData.heading}
+                  {menuItem.heading}
                 </Typography><hr />
-
-                <Typography className='Menucardlinks' component="div" >
+              
+                {/* <Typography className='Menucardlinks' component="div" >
                   {allmenuData.data_1}
-                </Typography>
+                </Typography> */}
+
+                {Object.keys(menuItem)
+                  .filter((key) => key.startsWith('data_'))
+                  .map((key, subIndex) => (
+                    <Typography key={subIndex} className='Menucardlinks' component="div">
+                      {typeof menuItem[key] === 'object' ? (
+                        <Link to={menuItem[key].pageUrl}>{menuItem[key].title}</Link>
+                      ) : (
+                        allmenuData[key]
+                      )}
+                    </Typography>
+                  ))}
+
+
                 <Typography className='Menucardlinks' component="div" >
                   {allmenuData.data_2}
                 </Typography>
@@ -220,7 +203,7 @@ const Menu = () => {
           </Card>
         </Grid>
       ))}
-    </Grid>
+    </Grid> 
 
   );
 };

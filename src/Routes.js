@@ -5,7 +5,13 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
-import SelfbaseC from './pages/SelfbaseC';
+
+import Mspc from './pages/RAC/Mspc';
+import Tspc from './pages/RAC/Tspc';
+import Nltsbac from './pages/RAC/Nltsbac';
+import Nltspc from './pages/RAC/Nltspc';
+import Vc from './pages/RAC/Vc';
+
 
 // import C from './pages/Courses/c';
 // import Python from './pages/Courses/python';
@@ -18,9 +24,18 @@ const AppRoutes = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Menu" element={<Menu />} />
+        <Route path="/Menu" element={<Menu />} /> 
+        
+        <Route/>
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Menu" element={<Menu />} />
+        <Route path="/Menu/pages/RAC/Mspc.js" element={<Mspc />} />
+        <Route path="/Menu/pages/RAC/Tspc.js" element={<Tspc />} />
+        <Route path="/Menu/pages/RAC/Nltsbac.js" element={<Nltsbac />} />
+        <Route path="/Menu/pages/RAC/Nltspc.js" element={<Nltspc />} />
+        <Route path="/Menu/pages/RAC/Vc.js" element={<Vc />} />
+
         {/* <Route path="/Courses/C" element={<C />} />
         <Route path="/Courses/Java" element={<Java />} />
         <Route path="/Courses/Python" element={<Python/>} />
