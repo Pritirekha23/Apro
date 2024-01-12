@@ -6,11 +6,15 @@ import Menu from './pages/Menu';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 
-import Mspc from './pages/RAC/Mspc';
-import Tspc from './pages/RAC/Tspc';
-import Nltsbac from './pages/RAC/Nltsbac';
-import Nltspc from './pages/RAC/Nltspc';
-import Vc from './pages/RAC/Vc';
+import Mspc from './pages/Components/RAC/Mspc';
+import Tspc from './pages/Components/RAC/Tspc';
+import Nltsbac from './pages/Components/RAC/Nltsbac';
+import Nltspc from './pages/Components/RAC/Nltspc';
+import Vc from './pages/Components/RAC/Vc';
+import Ir10t3nlparts from './pages/Components/IngersollRandType30nlparts/Ir10t3nlparts';
+import Ir5t2nlparts from './pages/Components/IngersollRandType30nlparts/Ir5t2nlparts';
+import Aircopcovt4parts from './pages/Components/AirCopcoVT4Parts/Aircopcovt4parts';
+import Hn2t50180np from './pages/Components/ChicagoPneumaticAirCompressorParts/Hn2t50180np';
 
 
 // import C from './pages/Courses/c';
@@ -26,22 +30,21 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Menu" element={<Menu />} /> 
         
-        <Route/>
+      
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/Menu" element={<Menu />} />
-        <Route path="/Menu/pages/RAC/Mspc.js" element={<Mspc />} />
-        <Route path="/Menu/pages/RAC/Tspc.js" element={<Tspc />} />
-        <Route path="/Menu/pages/RAC/Nltsbac.js" element={<Nltsbac />} />
-        <Route path="/Menu/pages/RAC/Nltspc.js" element={<Nltspc />} />
-        <Route path="/Menu/pages/RAC/Vc.js" element={<Vc />} />
+        <Route path="/Menu/pages/Components/RAC/Mspc.js" element={<Mspc />} />
+        <Route path="/Menu/pages/Components/RAC/Tspc.js" element={<Tspc />} />
+        <Route path="/Menu/pages/Components/RAC/Nltsbac.js" element={<Nltsbac />} />
+        <Route path="/Menu/pages/Components/RAC/Nltspc.js" element={<Nltspc />} />
+        <Route path="/Menu/pages/Components/RAC/Vc.js" element={<Vc />} />
+        <Route path="/Menu/pages/Components/IngersollRandType30nlparts/Ir5t2nlparts.js"  element={<Ir5t2nlparts />}/>
+        <Route path="/Menu/pages/Components/IngersollRandType30nlparts/Ir10t3nlparts.js"  element={<Ir10t3nlparts />}/>
+        <Route path="/Menu/pages/Components/AirCopcoVT4Parts/Aircopcovt4parts.js" element={<Aircopcovt4parts />}/>
+        <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/Hn2t50180np.js" element={<Hn2t50180np />}/>
 
-        {/* <Route path="/Courses/C" element={<C />} />
-        <Route path="/Courses/Java" element={<Java />} />
-        <Route path="/Courses/Python" element={<Python/>} />
-        <Route path="/Courses/Cpp" element={<Cpp />} />
-        <Route path="/Courses/Dsa" element={<Dsa />} /> */}
-        {/* Add other routes as needed */}
+        
       </Routes>
     </Router>
   );

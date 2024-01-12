@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/Menu.css'
 // import { Link } from 'react-router-dom';
-import { Grid, Card, CardActionArea, CardContent, Typography,CardMedia } from '@mui/material';
+import { Grid, Card, CardActionArea, CardContent, Typography, CardMedia } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 
@@ -66,54 +66,87 @@ const allmenuData = [
   {
     heading: 'Reciprocating Air Compressor',
 
-    data_1: 
+    data_1:
     {
-      title:'Two Stage Piston Compressor',
-      pageUrl:'./pages/RAC/Mspc.js',
+      title: 'Two Stage Piston Compressor',
+      pageUrl: './pages/Components/RAC/Mspc.js',
     },
-     data_2:
+    data_2:
     {
       title: 'Multi Stage Piston Compressor',
-      pageUrl:'./pages/RAC/Tspc.js',
+      pageUrl: './pages/Components/RAC/Tspc.js',
     },
-    
+
     data_3:
     {
-      title:'Vacuum Compressor',
-      pageUrl:'./pages/RAC/Vc.js',
-    } ,
-    data_4: 
+      title: 'Vacuum Compressor',
+      pageUrl: './pages/Components/RAC/Vc.js',
+    },
+    data_4:
     {
-      title:'Non-Lubricated Two stage Bar 8 Bar Air Comp',
-      pageUrl:'./pages/RAC/Nltsbac.js',
+      title: 'Non-Lubricated Two stage Bar 8 Bar Air Comp',
+      pageUrl: './pages/Components/RAC/Nltsbac.js',
     },
     data_5: {
-      title:'Non-Lubricated Three Stage PET Comp',
-      pageUrl:'./pages/RAC/Nltspc',
+      title: 'Non-Lubricated Three Stage PET Comp',
+      pageUrl: './pages/Components/RAC/Nltspc',
     }
   },
-  
+
   {
 
     heading: "Chicago Pneumatic Air Compressor Parts",
-    data_1: 'HN2T 150-180 NP Parts',
-    data_2: 'HN2T 120-215 LP Parts',
-    data_3: 'HN2T  HP 40PD Parts',
-    data_4: 'HN2T HP 80PD Parts',
-    data_5: 'HN2T HP 100PD Parts',
+
+    data_1: 
+    {
+      title:'HN2T 150-180 NP Parts',
+      pageUrl:'./pages/Components/Chicago PneumaticAirCompressorParts/Hn2t50180np.js',
+    },
+
+    data_2:{
+      title: 'HN2T 120-215 LP Parts',
+      pageUrl:'/'
+    },
+
+    data_3: 
+    {
+      title:'HN2T  HP 40PD Parts',
+      pageUrl:'/'
+    },
+    data_4: 
+    {
+      title:'HN2T HP 80PD Parts',
+      pageUrl:'/'
+    },
+    data_5:{
+      title: 'HN2T HP 100PD Parts',
+      pageUrl:'/'
+    }
   },
+
+
   {
     heading: ' Ingersoll Rand Type 30 NL Parts',
-    data_1: 'IR 5T2NL Parts',
-    data_2: 'IR 10T3NL Parts',
+    data_1:
+    {
+      title: 'IR 5T2NL Parts',
+      pageUrl: './pages/Components/IngersollRandType30nlparts/Ir5t2nlparts.js',
+    },
+    data_2: {
+      title: 'IR 10T3NL Parts',
+      pageUrl: './pages/Components/IngersollRandType30nlparts/Ir10t3nlparts.js',
+    },
   },
+
   {
 
     heading: "Atlas Copco Compressor Parts",
-    data_1: 'Air Copco VT 4 Parts',
+    data_1: 
+    {
+      title:'Air Copco VT 4 Parts',
+      pageUrl:'./pages/Components/AirCopcoVT4Parts/Aircopcovt4parts.js'
+    }
   },
-
-
 
 ];
 
@@ -125,15 +158,15 @@ const Menu = () => {
     <Grid container className="mn m-5" spacing={3} >
       {allmenuData.map((menuItem, index) => (
         <Grid item xs={12} sm={6} md={4} key={index}>
-          <Card sx={{ maxWidth: 345 , backgroundColor: 'lightpink' }} className="menucard">
+          <Card sx={{ maxWidth: 345, backgroundColor: 'lightpink' }} className="menucard">
 
             <CardActionArea className='menucardaction'>
               <CardContent className='cardContent'>
 
-                <Typography  variant="h5" component="div"  className='headingofmenu'>
+                <Typography variant="h5" component="div" className='headingofmenu'>
                   {menuItem.heading}
                 </Typography><hr />
-              
+
                 {/* <Typography className='Menucardlinks' component="div" >
                   {allmenuData.data_1}
                 </Typography> */}
@@ -150,60 +183,12 @@ const Menu = () => {
                     </Typography>
                   ))}
 
-
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_2}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_3}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_4}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_5}
-                </Typography>
-                <Typography className='Menucardlinks'component="div" >
-                  {allmenuData.data_6}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_7}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_8}
-                </Typography >
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_9}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_10}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_11}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_12}
-                </Typography>
-                <Typography className='Menucardlinks' component="div"  >
-                  {allmenuData.data_13}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_14}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_15}
-                </Typography>
-                <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_16}
-                </Typography>
-
-
               </CardContent>
             </CardActionArea>
           </Card>
         </Grid>
       ))}
-    </Grid> 
+    </Grid>
 
   );
 };
