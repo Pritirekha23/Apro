@@ -2,7 +2,8 @@ import React from 'react';
 import {Grid,Typography} from '@mui/material';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import './style/ContactUs.css'
+import './style/ContactUs.css';
+
 const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();

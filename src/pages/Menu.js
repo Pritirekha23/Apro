@@ -7,22 +7,75 @@ import Button from '@mui/material/Button';
 
 
 const allmenuData = [
+
   {
     heading: 'Ingersoll Rand Type 30 Parts',
-    data_1: 'IR 15T Parts',
-    data_2: 'IR 2340 Parts',
-    data_3: 'IR 2475 Parts',
-    data_4: 'IR 2545 Parts',
-    data_5: 'IR 3000 Parts',
-    data_6: 'IR 7100 Parts',
-    data_8: 'IR 15T2 Parts',
-    data_9: 'IR 2540 Parts',
-    data_10: 'IR 7T2 Parts',
-    data_11: 'IR 231 Parts',
-    data_12: 'IR 242 Parts',
-    data_13: 'IR 234 Parts',
-    data_14: 'IR 253 Parts',
-    data_15: 'IR 71T2 Parts',
+    data_1:
+    {
+      title: 'IR 15T Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir15t.js',
+    },
+    data_2: {
+      title: 'IR 2340 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir2340.js'
+    },
+
+    data_3: {
+      title: 'IR 2475 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir2475.js',
+    },
+
+    data_4: {
+      title: 'IR 2545 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir2545.js',
+    },
+
+    data_5: {
+      title: 'IR 3000 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir3000.js',
+    },
+
+    data_6: {
+      title: 'IR 7100 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir7100.js'
+    },
+
+    data_7: {
+      title: 'IR 15T2 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir15t2.js'
+    },
+
+    data_8: {
+      title: 'IR 2540 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir2540.js',
+    },
+    data_9: {
+      title: 'IR 7T2 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir7t2.js'
+    },
+
+    data_10: {
+      title: 'IR 231 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir231.js'
+    },
+
+    data_11: {
+      title: 'IR 242 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir242.js'
+    },
+
+    data_12: {
+      title: 'IR 234 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir234.js',
+    },
+    data_13: {
+      title: 'IR 253 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir253.js'
+    },
+    data_14: {
+      title:'IR 71T2 Parts',
+      pageUrl:'./pages/Components/IRType30Parts/Ir71t2.js',
+    },
 
   },
 
@@ -97,30 +150,30 @@ const allmenuData = [
 
     heading: "Chicago Pneumatic Air Compressor Parts",
 
-    data_1: 
+    data_1:
     {
-      title:'HN2T 150-180 NP Parts',
-      pageUrl:'./pages/Components/Chicago PneumaticAirCompressorParts/Hn2t50180np.js',
+      title: 'HN2T 150-180 NP Parts',
+      pageUrl: './pages/Components/Chicago PneumaticAirCompressorParts/Hn2t50180np.js',
     },
 
-    data_2:{
+    data_2: {
       title: 'HN2T 120-215 LP Parts',
-      pageUrl:'/'
+      pageUrl: '/'
     },
 
-    data_3: 
+    data_3:
     {
-      title:'HN2T  HP 40PD Parts',
-      pageUrl:'/'
+      title: 'HN2T  HP 40PD Parts',
+      pageUrl: '/'
     },
-    data_4: 
+    data_4:
     {
-      title:'HN2T HP 80PD Parts',
-      pageUrl:'/'
+      title: 'HN2T HP 80PD Parts',
+      pageUrl: '/'
     },
-    data_5:{
+    data_5: {
       title: 'HN2T HP 100PD Parts',
-      pageUrl:'/'
+      pageUrl: '/'
     }
   },
 
@@ -141,10 +194,10 @@ const allmenuData = [
   {
 
     heading: "Atlas Copco Compressor Parts",
-    data_1: 
+    data_1:
     {
-      title:'Air Copco VT 4 Parts',
-      pageUrl:'./pages/Components/AirCopcoVT4Parts/Aircopcovt4parts.js'
+      title: 'Air Copco VT 4 Parts',
+      pageUrl: './pages/Components/AirCopcoVT4Parts/Aircopcovt4parts.js'
     }
   },
 

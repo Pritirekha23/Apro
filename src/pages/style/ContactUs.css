@@ -9,16 +9,20 @@
     font-family: 'Poppins', sans-serif;
     
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1eee9; 
+}
 .formmain{
-    background-color: aquamarine;
+    background-color: #e78282;
     height: 100%;
     width: 100%;
     max-width: 600px; 
     padding: 30px;
-    margin-bottom:5%;
-    
-    
+    margin-bottom:5%;   
 }
+
 /* .forms{
  margin-top: 20px;
 } */
