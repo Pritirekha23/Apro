@@ -1,46 +1,46 @@
 /* menu.css */
-@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Lato&family=Poppins:wght@300;400&family=Roboto+Slab:wght@400;700&family=Work+Sans:ital,wght@1,500&family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;1,200;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Lato&family=Poppins:wght@300;400&family=Roboto+Slab:wght@400;700&family=Work+Sans:ital,wght@1,500&family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;1,200;1,400;1,500&display=swap");
 
 .mn {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap; 
-    font-family: 'Poppins', sans-serif;
-  }
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+}
 
-.headingofmenu{
-    color: rgb(220, 218, 204);
-}  
+.headingofmenu {
+  color:cyan;
+}
 .menucard {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    max-width: 300px; 
-    width: 100%;
-    transition: height 0.5s ease 0.9s; 
-    overflow: hidden;
-    border-radius: 8px;
-    /* margin: 0 auto;   */
-    box-sizing: border-box;   
-  }
-  
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 300px;
+  width: 100%;
+  transition: height 0.5s ease 0.9s;
+  overflow: hidden;
+  border-radius: 8px;
+  /* margin: 0 auto;   */
+  box-sizing: border-box;
+}
 
 .Menucardlinks a {
-    /* text-decoration: none; */
-    color: inherit; 
+  /* text-decoration: none; */
+  color: inherit;
 }
 .cardContent {
-    display: flex;
-    flex-direction: column;
-   
-} 
-  
+  display: flex;
+  flex-direction: column;
+}
+.Menucardlinks a:hover {
+  color:yellow;
+}
 
 @media screen and (max-width: 600px) {
-  .mn{
+  .mn {
     margin: 2px;
   }
   .menucard {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 }

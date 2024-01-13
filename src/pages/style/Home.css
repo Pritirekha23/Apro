@@ -78,7 +78,7 @@ h1{
 
 .card:hover {
   transform: scaleY(1.05); 
-  box-shadow: 10px 10px 10px 10px rgba(147, 86, 86, 0.3); 
+  box-shadow: 10px 10px 10px 10px rgba(226, 214, 75, 0.3); 
 } 
 
 
