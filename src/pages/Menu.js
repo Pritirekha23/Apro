@@ -73,47 +73,184 @@ const allmenuData = [
       pageUrl: './pages/Components/IRType30Parts/Ir253.js'
     },
     data_14: {
-      title:'IR 71T2 Parts',
-      pageUrl:'./pages/Components/IRType30Parts/Ir71t2.js',
+      title: 'IR 71T2 Parts',
+      pageUrl: './pages/Components/IRType30Parts/Ir71t2.js',
     },
 
   },
 
   {
     heading: 'Ingersoll Rand ESV Parts',
-    data_1: 'IR 7 * 5 ESV 1 LUB Parts',
-    data_2: 'IR 8 * 5 ESV 1 LUB Parts',
-    data_3: 'IR 9 1/2 * 5 ESV 1 LUB Parts',
-    data_4: 'IR 7 * 5 ESV 1 NL Parts',
-    data_5: 'IR 8 * 5 ESV 1 NL Parts',
-    data_6: 'IR 8 * 7 ESV 1 NL Parts',
-    data_8: 'IR 9 1/2 * 5 ESV 1 NL Parts',
-    data_9: 'IR 9 1/2 * 7 ESV 1 NL Parts',
-    data_10: 'IR 9 * 7 ESV 1 NL Parts',
-    data_11: 'IR 8 * 7 ESV 1 LUB Parts',
-    data_12: 'IR 91/2 *7 ESV 1 LUB Parts',
-    data_13: 'IR 11 * 7 ESV 1 LUB Parts',
-    data_14: 'IR 11 * 7 ESV 1 NL Parts',
-    data_15: 'IR 12 * 9 ESV 1 NL Parts',
-    data_16: 'IR 4 * 5 ESV 1 NL Parts',
+
+    data_1:
+    {
+      title: 'IR 7 * 5 ESV 1 LUB Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir75elp.js',
+    },
+
+    data_2:
+    {
+      title: 'IR 8 * 5 ESV 1 LUB Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir85elp.js',
+    },
+
+    data_3:
+    {
+      title: 'IR 9 1/2 * 5 ESV 1 LUB Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir9125elp.js',
+    },
+
+    data_4:
+    {
+      title: 'IR 7 * 5 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir75enlp.js',
+    },
+
+    data_5:
+    {
+      title: 'IR 8 * 5 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir85enlp.js',
+    },
+
+    data_6:
+    {
+      title: 'IR 8 * 7 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir87enlp.js',
+    },
+
+    data_7:
+    {
+      title: 'IR 9 1/2 * 5 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir9125enlp.js'
+    },
+
+    data_8:
+    {
+      title: 'IR 9 1/2 * 7 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir9127enlp.js'
+    },
+
+    data_9:
+    {
+      title: 'IR 9 * 7 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir97enlp.js',
+    },
+
+    data_10:
+    {
+      title: 'IR 8 * 7 ESV 1 LUB Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir87elp.js',
+    },
+
+    data_11:
+    {
+      title: 'IR 9 1/2 *7 ESV 1 LUB Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir9127elp.js',
+    },
+    data_12:
+    {
+      title: 'IR 11 * 7 ESV 1 LUB Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir117elp.js',
+    },
+    data_13:
+    {
+      title: 'IR 11 * 7 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir117enlp.js',
+    },
+    data_14:
+    {
+      title: 'IR 12 * 9 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir129enlp.js',
+    },
+    data_15:
+    {
+      title: 'IR 4 * 5 ESV 1 NL Parts',
+      pageUrl: './pages/Components/IRESVparts/Ir45enlp.js',
+    },
   },
+
 
   {
 
-    heading: "  Ingersoll Rand Air Compressor ",
-    data_1: 'IR 12 * 7 * 7  PHE Parts',
-    data_2: 'IR 12 * 7 * 7  IHE 5 NL Parts',
-    data_3: 'IR 16 * 10 * 7  IHE NL Parts',
-    data_4: 'PETStar PS4 Parts',
-    data_5: 'IR 7*4*7 ESV  PHE-7 Parts',
-    data_6: 'IR 5 * 5 * 7 PHE Booster Parts',
-    data_8: 'IR 10 * 6 * 7 PHE 7 NL Parts',
-    data_9: 'IR 4.75 * 5 ESV 5 NL Booster Parts',
-    data_10: 'IR 12 * 7 * 7 IHE5 NL Old Parts',
-    data_11: 'IR 12 * 12 * 7 IHE NL Parts',
-    data_12: 'IR 16 * 9B * 7 IHE NL2',
-    data_13: 'IR 5 * 4 * 7 PHE NL',
-    data_14: 'IR 12 * 7 * 7 PHE7 NL-Pack',
+    heading: " Ingersoll Rand Air Compressor Parts",
+    data_1:
+    {
+      title: 'IR 12 * 7 * 7  PHE Parts',
+      pageUrl: './pages/Components/IRACParts/Ir1277pp.js',
+    },
+
+    data_2:
+    {
+      title: 'IR 12 * 7 * 7  IHE 5 NL Parts',
+      pageUrl: './pages/Components/IRACParts/Ir1277inp.js',
+    },
+
+    data_3:
+    {
+      title: 'IR 16 * 10 * 7  IHE NL Parts',
+      pageUrl: './pages/Components/IRACParts/Ir16107inp.js',
+    },
+
+    data_4:
+    {
+      title: 'PETStar PS4 Parts',
+      pageUrl: './pages/Components/IRACParts/Petstarps4p.js',
+    },
+
+    data_5:
+    {
+      title: 'IR 7*4*7 ESV  PHE-7 Parts',
+      pageUrl: './pages/Components/IRACParts/Ir747epp.js'
+    },
+
+    data_6:
+    {
+      title: 'IR 5 * 5 * 7 PHE Booster Parts',
+      pageUrl: './pages/Components/IRACParts/Ir557pbp.js',
+    },
+
+    data_7:
+    {
+      title: 'IR 10 * 6 * 7 PHE 7 NL Parts',
+      pageUrl: './pages/Components/IRACParts/Ir1067pnp.js'
+    },
+
+    data_8:
+    {
+      title: 'IR 4.75 * 5 ESV 5 NL Booster Parts',
+      pageUrl: './pages/Components/IRACParts/Ir4755enbp.js'
+    },
+
+    data_9:
+    {
+      title: 'IR 12 * 7 * 7 IHE5 NL Old Parts',
+      pageUrl: './pages/Components/IRACParts/Ir1277inop.js',
+    },
+
+    data_10:
+    {
+      title: 'IR 12 * 12 * 7 IHE NL Parts',
+      pageUrl: './pages/Components/IRACParts/Ir12127inp.js',
+    },
+
+    data_11:
+    {
+      title: 'IR 16 * 9B * 7 IHE NL2',
+      pageUrl: './pages/Components/IRACParts/Ir169b7in2p.js',
+    },
+
+    data_12:
+    {
+      title: 'IR 5 * 4 * 7 PHE NL',
+      pageUrl: './pages/Components/IRACParts/Ir547pn.js',
+    },
+
+    data_13:
+    {
+      title: 'IR 12 * 7 * 7 PHE7 NL-Pack',
+      pageUrl: './pages/Components/IRACParts/Ir1277pnp.js'
+    },
+    
   },
 
   {
