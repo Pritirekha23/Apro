@@ -250,7 +250,7 @@ const allmenuData = [
       title: 'IR 12 * 7 * 7 PHE7 NL-Pack',
       pageUrl: './pages/Components/IRACParts/Ir1277pnp.js'
     },
-    
+
   },
 
   {
@@ -295,22 +295,22 @@ const allmenuData = [
 
     data_2: {
       title: 'HN2T 120-215 LP Parts',
-      pageUrl: '/'
+      pageUrl: './pages/Components/ChicagoPneumaticAirCompressorParts/H120215lp.js'
     },
 
     data_3:
     {
       title: 'HN2T  HP 40PD Parts',
-      pageUrl: '/'
+      pageUrl: './pages/Components/ChicagoPneumaticAirCompressorParts/Hh40pdp.js'
     },
     data_4:
     {
       title: 'HN2T HP 80PD Parts',
-      pageUrl: '/'
+      pageUrl: './pages/Components/ChicagoPneumaticAirCompressorParts/Hh80pdp.js'
     },
     data_5: {
       title: 'HN2T HP 100PD Parts',
-      pageUrl: '/'
+      pageUrl: './pages/Components/ChicagoPneumaticAirCompressorParts/Hh100pdp.js'
     }
   },
 

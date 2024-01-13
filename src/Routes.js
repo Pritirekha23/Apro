@@ -14,7 +14,7 @@ import Vc from './pages/Components/RAC/Vc';
 import Ir10t3nlparts from './pages/Components/IngersollRandType30nlparts/Ir10t3nlparts';
 import Ir5t2nlparts from './pages/Components/IngersollRandType30nlparts/Ir5t2nlparts';
 import Aircopcovt4parts from './pages/Components/AirCopcoVT4Parts/Aircopcovt4parts';
-import Hn2t50180np from './pages/Components/ChicagoPneumaticAirCompressorParts/Hn2t50180np';
+
 
 // Ingersoll Rand Type 30 Parts pages
 import Ir15t from './pages/Components/IRType30Parts/Ir15t';
@@ -63,6 +63,14 @@ import Ir169b7in2p from './pages/Components/IRACParts/Ir169b7in2p';
 import Ir547pn from './pages/Components/IRACParts/Ir547pn';
 import Ir1277pnp from './pages/Components/IRACParts/Ir1277pnp';
 
+// Chicago Pneumatic Air Compressor Parts
+import Hn2t50180np from './pages/Components/ChicagoPneumaticAirCompressorParts/Hn2t50180np';
+import H120215lp from './pages/Components/ChicagoPneumaticAirCompressorParts/H120215lp';
+import Hh40pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh40pdp';
+import Hh80pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh80pdp';
+import Hh100pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh100pdp';
+
+
 const AppRoutes = () => {
   return (
     <Router>
@@ -82,7 +90,15 @@ const AppRoutes = () => {
         <Route path="/Menu/pages/Components/IngersollRandType30nlparts/Ir5t2nlparts.js"  element={<Ir5t2nlparts />}/>
         <Route path="/Menu/pages/Components/IngersollRandType30nlparts/Ir10t3nlparts.js"  element={<Ir10t3nlparts />}/>
         <Route path="/Menu/pages/Components/AirCopcoVT4Parts/Aircopcovt4parts.js" element={<Aircopcovt4parts />}/>
-        <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/Hn2t50180np.js" element={<Hn2t50180np />}/>
+
+
+
+        {/* Chicago Pneumatic Air Compressor Parts   */}
+        <Route path="/Menu/pages/Components/Chicago PneumaticAirCompressorParts/Hn2t50180np.js" element={<Hn2t50180np />}/>
+        <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/H120215lp.js" element={<H120215lp />}/>
+        <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/Hh40pdp.js" element={<Hh40pdp />}/>
+        <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/Hh80pdp.js" element={<Hh80pdp />}/>
+        <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/Hh100pdp.js" element={<Hh100pdp />}/>
 
 
         {/* Ingersoll Rand Type 30 Parts pages */}
