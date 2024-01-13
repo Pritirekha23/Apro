@@ -345,40 +345,75 @@ const Menu = () => {
 
   return (
 
-    <Grid container className="mn m-5" spacing={3} >
-      {allmenuData.map((menuItem, index) => (
-        <Grid item xs={12} sm={6} md={4} key={index}>
-          <Card sx={{ maxWidth: 345, backgroundColor: 'lightpink' }} className="menucard">
+    // <Grid container className="mn m-5" spacing={3} >
+    //   {allmenuData.map((menuItem, index) => (
+    //     <Grid item xs={12} sm={6} md={4} key={index}>
 
-            <CardActionArea className='menucardaction'>
-              <CardContent className='cardContent'>
+    //       <Card sx={{ maxWidth: 345, background: "#864AF9", color: "#fff", overflow: 'hidden' }} className="menucard">
 
-                <Typography variant="h5" component="div" className='headingofmenu'>
-                  {menuItem.heading}
-                </Typography><hr />
+    //         <CardActionArea className='menucardaction'>
+    //           <CardContent className='cardContent'>
 
-                {/* <Typography className='Menucardlinks' component="div" >
-                  {allmenuData.data_1}
-                </Typography> */}
+    //             <Typography variant="h5" component="div" className='headingofmenu'>
+    //               {menuItem.heading}
+    //             </Typography><hr />
 
-                {Object.keys(menuItem)
-                  .filter((key) => key.startsWith('data_'))
-                  .map((key, subIndex) => (
-                    <Typography key={subIndex} className='Menucardlinks' component="div">
-                      {typeof menuItem[key] === 'object' ? (
-                        <Link to={menuItem[key].pageUrl}>{menuItem[key].title}</Link>
-                      ) : (
-                        allmenuData[key]
-                      )}
-                    </Typography>
-                  ))}
 
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </Grid>
-      ))}
-    </Grid>
+    //             {Object.keys(menuItem)
+    //               .filter((key) => key.startsWith('data_'))
+    //               .map((key, subIndex) => (
+    //                 <Typography key={subIndex} className='Menucardlinks' component="div">
+    //                   {typeof menuItem[key] === 'object' ? (
+    //                     <Link to={menuItem[key].pageUrl}>{menuItem[key].title}</Link>
+    //                   ) : (
+    //                     allmenuData[key]
+    //                   )}
+    //                 </Typography>
+    //               ))}
+
+    //           </CardContent>
+    //         </CardActionArea>
+    //       </Card>
+    //     </Grid>
+    //   ))}
+    // </Grid>
+
+    <Grid className="home-container-page">
+
+      <Grid item xs={12} className="home-page-textf">
+        <h1>ALL Menus are Here</h1>
+      </Grid>
+
+      <Grid container className="home-page-images mt-5" spacing={3}>
+        {allmenuData.map((menuItem, index) => (
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <Card sx={{ maxWidth: 345 }} className="card">
+              <CardActionArea >
+                <CardContent >
+                  <Typography variant="h5" component="div" className='headingofmenu'>
+                    {menuItem.heading}
+                  </Typography><hr />
+
+
+                  {Object.keys(menuItem)
+                    .filter((key) => key.startsWith('data_'))
+                    .map((key, subIndex) => (
+                      <Typography key={subIndex} className='Menucardlinks' component="div">
+                        {typeof menuItem[key] === 'object' ? (
+                          <Link to={menuItem[key].pageUrl}>{menuItem[key].title}</Link>
+                        ) : (
+                          allmenuData[key]
+                        )}
+                      </Typography>
+                    ))}
+
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+ </Grid>
 
   );
 };

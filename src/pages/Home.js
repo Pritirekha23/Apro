@@ -1,8 +1,7 @@
 // Home.js
 import React from 'react';
 import Grid from '@mui/material/Grid';
-import './style/Home.css'
-// import { Link } from 'react-router-dom';
+import './style/Home.css';
 import Typography from '@mui/material/CardActionArea';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -15,7 +14,7 @@ const cardData = [
   {
     image: 'https://static.wixstatic.com/media/f16a02_0f8f3febcd9a48319fc12695180c72d3~mv2.jpg/v1/fill/w_483,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f16a02_0f8f3febcd9a48319fc12695180c72d3~mv2.jpg',
     alt: 'ReciprocatingAirCompressor',
-    heading: 'ReciprocatingAirCompressor',
+    heading: 'Reciprocating Air Compressor',
     subheading: ' Multi Stage Piston Compressor , Two Stage Piston Compressor, Vacuum Compressor, Non Lubricated Three Stage PET Compressor ',
     buttonURL: '/reciprocating-air-compressor',
   },
@@ -64,7 +63,7 @@ const Home = () => {
 
       <Grid item xs={12} className="home-page-textf">
         <h1>Parts For Compressor | Compressor Parts</h1>
-        <Grid item xs={12} md={6} className="mt-5"><span className='home-span'>Part For Compressor</span> Partsforcompressor.com is a Global Supplier of OEM Quality New Aftermarket Replacement <span className='home-span'>Air Compressor parts , Parts for Compressor, Ingersoll Rand Air Compressor Parts, Atlas Copco Air Compressor Parts</span> from India.
+        <Grid item xs={12} md={6} className="mt-5">PFC - Parts For Compressor is a Global Supplier of OEM Quality New Aftermarket Replacement Air Compressor parts , Parts for Compressor, Ingersoll Rand Air Compressor Parts, Atlas Copco Air Compressor Parts, Chicago Pneumatic Air Compressor Parts from India.
         </Grid>
         <Grid item xs={12} md={6} className="mt-4">
           PFC - Parts For Compressor is a global supplier of Reciprocating Air Compressor and OEM Quality new Aftermarket Replacement Air Compressor parts for Ingersoll Rand Type 30 Air Compressor Parts , Ingersoll Rand Type 30 NL Air Compressor Parts , Ingersoll Rand ESV - LUB & NL Air Compressor Parts , Ingersoll Rand ESH - LUB & NL Air Compressor Parts , Ingersoll Rand IHE Air Compressor Parts , Ingersoll Rand PHE Air Compressor Parts , Ingersoll Rand XLE Air Compressor Parts , Atlas Copco Air Compressor Parts , Refrigeration Compressor Parts from India.
@@ -83,8 +82,8 @@ const Home = () => {
                   className='card-media'
                   style={{ height: '150' }} // Adjust image height and width of the card here 
                 />
-                <CardContent>
-                  <Typography variant="h5" component="div" className='home-page-image-heading'>
+                <CardContent >
+                  <Typography variant="h5" component="div" className='home-page-image-heading ' style={{color:"crimson"}}>
                     {card.heading}
                   </Typography><hr />
                   <Typography variant="body2" color="text.secondary" className='home-page-image-subheading'>

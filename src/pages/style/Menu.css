@@ -9,31 +9,38 @@
   }
 
 .headingofmenu{
-    color: red;
+    color: rgb(220, 218, 204);
 }  
 .menucard {
     display: flex;
     flex-direction: column;
     height: 100%;
+    max-width: 300px; 
+    width: 100%;
     transition: height 0.5s ease 0.9s; 
+    overflow: hidden;
     border-radius: 8px;
-    
+    /* margin: 0 auto;   */
+    box-sizing: border-box;   
   }
   
-.menucard:hover {
-    transform: scaleY(1.05); 
-    box-shadow: 10px 0px 10px rgba(7, 46, 145, 0.3); 
-  } 
-  
 
+.Menucardlinks a {
+    /* text-decoration: none; */
+    color: inherit; 
+}
 .cardContent {
- 
     display: flex;
     flex-direction: column;
    
-  } 
+} 
   
 
- /* .menucardaction{
-  background-color: aquamarine;
- } */
+@media screen and (max-width: 600px) {
+  .mn{
+    margin: 2px;
+  }
+  .menucard {
+    margin-bottom: 20px; 
+  }
+}
