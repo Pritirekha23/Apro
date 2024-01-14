@@ -11,8 +11,10 @@ import Tspc from './pages/Components/RAC/Tspc';
 import Nltsbac from './pages/Components/RAC/Nltsbac';
 import Nltspc from './pages/Components/RAC/Nltspc';
 import Vc from './pages/Components/RAC/Vc';
+
 import Ir10t3nlparts from './pages/Components/IngersollRandType30nlparts/Ir10t3nlparts';
 import Ir5t2nlparts from './pages/Components/IngersollRandType30nlparts/Ir5t2nlparts';
+
 import Aircopcovt4parts from './pages/Components/AirCopcoVT4Parts/Aircopcovt4parts';
 
 
@@ -64,7 +66,7 @@ import Ir547pn from './pages/Components/IRACParts/Ir547pn';
 import Ir1277pnp from './pages/Components/IRACParts/Ir1277pnp';
 
 // Chicago Pneumatic Air Compressor Parts
-import Hn2t50180np from './pages/Components/ChicagoPneumaticAirCompressorParts/Hn2t50180np';
+import H150180np from './pages/Components/ChicagoPneumaticAirCompressorParts/H150180np';
 import H120215lp from './pages/Components/ChicagoPneumaticAirCompressorParts/H120215lp';
 import Hh40pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh40pdp';
 import Hh80pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh80pdp';
@@ -94,7 +96,7 @@ const AppRoutes = () => {
 
 
         {/* Chicago Pneumatic Air Compressor Parts   */}
-        <Route path="/Menu/pages/Components/Chicago PneumaticAirCompressorParts/Hn2t50180np.js" element={<Hn2t50180np />}/>
+        <Route path="/Menu/pages/Components/Chicago PneumaticAirCompressorParts/Hn2t50180np.js" element={<H150180np />}/>
         <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/H120215lp.js" element={<H120215lp />}/>
         <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/Hh40pdp.js" element={<Hh40pdp />}/>
         <Route path="/Menu/pages/Components/ChicagoPneumaticAirCompressorParts/Hh80pdp.js" element={<Hh80pdp />}/>
