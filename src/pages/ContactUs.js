@@ -31,14 +31,16 @@ const ContactUs = () => {
     //object that contains dynamic template params
     const templateParams = {
       from_name: name,
-      from_email: email,
-      companyname: companyname,
+      from_name: email,
+      company_name: companyname,
       country: country,
-      phone: phone,
-      makeandmodel: makeandmodel,
-      // file: file,
+      phone_number: phone,
+      product_model: makeandmodel,
       to_name: 'pritirekha',
       message: message,
+
+
+      
     };
 
     // const formData = new FormData();
@@ -141,7 +143,7 @@ return (
             label="Make and Model"
             name="makeandmodel"
             variant="outlined"
-            placeholder=''
+            placeholder='makemodel'
             required
             value={makeandmodel}
             onChange={(e)=> setMakeandmodel(e.target.value)}
