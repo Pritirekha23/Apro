@@ -24,9 +24,9 @@ const ContactUs = () => {
     // Handle form submission logic here
 
     // Your service ID,template ID and Public key
-    const serviceId = 'service_i525fwc';
-    const templateId = 'template_0q3dxfh';
-    const publicKey = 'EPpXhNYtld2G8Znzq';
+    const serviceId = 'service_y6qgrot';
+    const templateId = 'template_wufcybr';
+    const publicKey = 'dp53uXQ5o0WpjgOVn';
 
     //object that contains dynamic template params
     const templateParams = {
@@ -76,7 +76,7 @@ return (
     <form onSubmit={handleSubmit} className='formmain mt-5'>
       <Grid container spacing={2} className="forms" >
 
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} >
           <TextField
             fullWidth
             label="Name"
@@ -88,7 +88,7 @@ return (
             onChange={(e)=> setName(e.target.value)}
           />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} >
           <TextField
             fullWidth
             label="Company Name"
@@ -100,7 +100,7 @@ return (
             onChange={(e)=> setCompanyname(e.target.value)}
           />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} >
           <TextField
             fullWidth
             label="Email"
@@ -113,7 +113,7 @@ return (
             onChange={(e)=> setEmail(e.target.value)}
           />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} >
           <TextField
             fullWidth
             label="Country"
@@ -125,7 +125,7 @@ return (
             onChange={(e)=> setCountry(e.target.value)}
           />
         </Grid>
-        <Grid item xs={12} >
+        <Grid item xs={12}  >
           <TextField
             fullWidth
             label="Phone Number"
@@ -149,14 +149,15 @@ return (
             onChange={(e)=> setMakeandmodel(e.target.value)}
           />
         </Grid>
+            {/* <br /><br /><br /><br /> */}
 
-        <Grid item xs={12}>
+        <Grid item xs={12} className=' message m-3 p-2'>
           <TextField
             fullWidth
             label="Message"
             name="message"
             multiline
-            rows={4}
+            rows={5}
             variant="outlined"
             required
             value={message}
@@ -170,14 +171,15 @@ return (
             onChange={(e)=> setFile(e.target.files[0])}
            />
         </Grid> */}
-        <Grid item xs={12}>
-          <Button type="submit" variant="contained" color="error" className='submit-btn' sx={{ marginLeft: "40%" }}>
+        <Grid item xs={12} >
+          <Button type="submit" variant="contained" className='submit-btn ' sx={{ marginLeft: "40%", background:"blue" }}>
             Submit
           </Button>
         </Grid>
       </Grid>
     </form>
   </Grid>
+
 );
 };
 

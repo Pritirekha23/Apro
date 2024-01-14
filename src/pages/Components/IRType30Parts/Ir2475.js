@@ -84,7 +84,7 @@ const Ir2475 = () => {
                   style={{ height: '150' }} // Adjust image height and width of the card here 
                 /><hr />
 
-                <CardContent className=' p-3 bg-success text-white '>
+                <CardContent className=' p-3 bg-success text-white '  style={{ borderRadius: '40px 0px 40px 0px ' }}>
                   <Typography variant="h5" component="div" className='home-page-image-heading'>
                     {card.heading}
                   </Typography>
