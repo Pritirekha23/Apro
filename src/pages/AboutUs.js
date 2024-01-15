@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Liveclass = () => {
+const AboutUS = () => {
   return (
     <div>
-      <h1>liveclass</h1>
+      <h1>AboutUS</h1>
     </div>
   )
 }
 
-export default Liveclass
+export default AboutUS
