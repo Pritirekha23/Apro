@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Typography } from '@mui/material';
+import { Grid, Typography,Snackbar } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import './style/ContactUs.css';
@@ -17,6 +17,11 @@ const ContactUs = () => {
   const [message, setMessage] = useState('');
   // const [file, setFile] = useState(null);
 
+
+  const [showSnackbar, setShowSnackbar] = useState(false);
+  const handleCloseSnackbar = () => {
+    setShowSnackbar(false);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -58,6 +63,8 @@ const ContactUs = () => {
             setMakeandmodel('');
             setPhone('');
             setMessage('');
+
+            setShowSnackbar(true);
 
     })
     .catch((error) => {
@@ -178,6 +185,20 @@ return (
         </Grid>
       </Grid>
     </form>
+
+    <Snackbar
+        open={showSnackbar}
+        autoHideDuration={6000}
+        onClose={handleCloseSnackbar}
+        message="Email sent successfully!"
+        action={
+          <React.Fragment>
+            <Button color="secondary" size="small" onClick={handleCloseSnackbar}>
+              Close
+            </Button>
+          </React.Fragment>
+        }
+      />
   </Grid>
 
 );
