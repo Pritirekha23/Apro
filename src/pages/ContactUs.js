@@ -76,11 +76,11 @@ const ContactUs = () => {
 
 return (
   <Grid className='contactus' container direction="column" alignItems="center" >
-    <Typography className='form-heading mt-2' fontSize="1.2rem">
+    <Typography className='form-heading' fontSize="1.2rem"  style={{  marginTop: '8%' }}>
       Request for Query
     </Typography>
     <Typography className="formsubheading" fontSize="2.5rem" >Let's Talk! Send Your <span className='formspan'>Inquiry</span></Typography>
-    <form onSubmit={handleSubmit} className='formmain mt-5'>
+    <form onSubmit={handleSubmit} className='formmain mt-3'>
       <Grid container spacing={2} className="forms" >
 
         <Grid item xs={12} sm={6} >

@@ -5,7 +5,7 @@ import './style/AboutUs.css';
 
 const AboutUS = () => {
   return (
-    <Grid className="aboutus-page-main" >
+    <Grid className="aboutus-page-main" style={{  marginTop: '8%' }}>
       <Grid><Typography> We have the pleasure to introduce ourselves as the leading supplier of replacement spares and service contractors for Ingersoll-Rand, Dresser-Rand, Chicago Pneumatics, Atlas Copco, and Kirloskar Make Air & Gas Compressors in North & South India.
       </Typography></Grid>
 

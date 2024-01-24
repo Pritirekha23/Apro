@@ -61,12 +61,12 @@ const Home = () => {
 
     <Grid className="home-container-page">
 
-      <Grid item xs={12} className="home-page-textf">
+      <Grid item xs={12} className="home-page-textf "  style={{  marginTop: '10%' }}>
         <h1>Parts For Compressor | Compressor Parts</h1>
-        <Grid item xs={12} md={6} className="mt-5">PFC - Parts For Compressor is a Global Supplier of OEM Quality New Aftermarket Replacement Air Compressor parts , Parts for Compressor, Ingersoll Rand Air Compressor Parts, Atlas Copco Air Compressor Parts, Chicago Pneumatic Air Compressor Parts from India.
+        <Grid item xs={12} md={6} className="mt-5">AIR PRO  - Parts For Compressor is a Global Supplier of OEM Quality New Aftermarket Replacement Air Compressor parts , Parts for Compressor, Ingersoll Rand Air Compressor Parts, Atlas Copco Air Compressor Parts, Chicago Pneumatic Air Compressor Parts from India.
         </Grid>
         <Grid item xs={12} md={6} className="mt-4">
-          PFC - Parts For Compressor is a global supplier of Reciprocating Air Compressor and OEM Quality new Aftermarket Replacement Air Compressor parts for Ingersoll Rand Type 30 Air Compressor Parts , Ingersoll Rand Type 30 NL Air Compressor Parts , Ingersoll Rand ESV - LUB & NL Air Compressor Parts , Ingersoll Rand ESH - LUB & NL Air Compressor Parts , Ingersoll Rand IHE Air Compressor Parts , Ingersoll Rand PHE Air Compressor Parts , Ingersoll Rand XLE Air Compressor Parts , Atlas Copco Air Compressor Parts , Refrigeration Compressor Parts from India.
+         AIR PRO - Parts For Compressor is a global supplier of Reciprocating Air Compressor and OEM Quality new Aftermarket Replacement Air Compressor parts for Ingersoll Rand Type 30 Air Compressor Parts , Ingersoll Rand Type 30 NL Air Compressor Parts , Ingersoll Rand ESV - LUB & NL Air Compressor Parts , Ingersoll Rand ESH - LUB & NL Air Compressor Parts , Ingersoll Rand IHE Air Compressor Parts , Ingersoll Rand PHE Air Compressor Parts , Ingersoll Rand XLE Air Compressor Parts , Atlas Copco Air Compressor Parts , Refrigeration Compressor Parts from India.
         </Grid>
       </Grid>
 
@@ -100,10 +100,6 @@ const Home = () => {
           </Grid>
         ))}
       </Grid>
-
-
-
-
     </Grid>
 
 

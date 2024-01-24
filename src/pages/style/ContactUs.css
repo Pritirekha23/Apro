@@ -12,7 +12,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #e6e6fa;
+  /* background-color: rgb(116, 217, 221); */
+  /* background-color: #e6e6fa; */
+  /* background-color: rgb(210, 200, 200); */
+  background-color: #FDF0D1;
   
 }
 
@@ -61,6 +64,14 @@ body {
 @media (max-width: 768px) {
     .formmain {
       width: 80%; 
+    }
+    .contactus {
+      margin-top: 30%;
+    }
+    .formsubheading{
+      font-size: 1.2rem;
+      /* color: white; */
+      /* margin-left: 20px; */
     }
   }
   
