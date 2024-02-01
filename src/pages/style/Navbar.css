@@ -31,7 +31,9 @@
   color: orangered;
    
 }
-
+.icon {
+  font-size: 40px;
+}
 .nav-link{
   color: orangered;
 }

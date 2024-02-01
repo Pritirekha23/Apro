@@ -21,10 +21,10 @@ function Footer() {
         <Typography className="f-num">Phone No: +91 6363681250</Typography>
         <Typography>Email Us: sales@airproindia.in</Typography>
         <Typography >
-          <IconButton href="https://wa.me/7657053698" target="_blank" style={{ color: 'green' }}>
+          <IconButton href="https://wa.me/6363681250" target="_blank" style={{ color: 'green' }}>
             <WhatsAppIcon />
           </IconButton>
-          <IconButton href="https://www.facebook.com/" target="_blank" style={{ color: 'blue' }}>
+          <IconButton href="https://www.facebook.com/people/Airpro-Pneumatics-Spares/61553618098816/?mibextid=ZbWKwL" target="_blank" style={{ color: 'blue' }}>
             <FacebookIcon />
           </IconButton>
           <IconButton href="https://www.youtube.com/" target="_blank" style={{ color: 'red' }}>

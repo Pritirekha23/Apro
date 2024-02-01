@@ -48,7 +48,8 @@ import Ir87elp from './pages/Components/IRESVparts/Ir87elp';
 import Ir9127elp from './pages/Components/IRESVparts/Ir9127elp';
 import Ir117elp from './pages/Components/IRESVparts/Ir117elp';
 import Ir117enlp from './pages/Components/IRESVparts/Ir117enlp';
-import Ir129enlp from './pages/Components/IRESVparts/Ir129enlp';import Ir45enlp from './pages/Components/IRESVparts/Ir45enlp';
+import Ir129enlp from './pages/Components/IRESVparts/Ir129enlp';
+import Ir45enlp from './pages/Components/IRESVparts/Ir45enlp';
 
 // Ingersoll Rand Air Compressor Parts
 import Ir1277pp from './pages/Components/IRACParts/Ir1277pp';
@@ -72,6 +73,7 @@ import Hh40pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh40p
 import Hh80pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh80pdp';
 import Hh100pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh100pdp';
 
+import Wpicon from './pages/Wpicon.js'
 
 const AppRoutes = () => {
   return (
@@ -83,6 +85,7 @@ const AppRoutes = () => {
       
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Wpicon" element={<Wpicon />}/> 
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Menu/pages/Components/RAC/Mspc.js" element={<Mspc />} />
         <Route path="/Menu/pages/Components/RAC/Tspc.js" element={<Tspc />} />
@@ -153,10 +156,7 @@ const AppRoutes = () => {
         <Route path="/Menu/pages/Components/IRACParts/Ir547pn.js" element={<Ir547pn />}/> 
         <Route path="/Menu/pages/Components/IRACParts/Ir12127inp.js" element={<Ir12127inp />}/> 
         <Route path="/Menu/pages/Components/IRACParts/Ir1277pnp.js" element={<Ir1277pnp />}/> 
-
-
-
-
+        
 
       </Routes>
     </Router>
