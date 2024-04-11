@@ -43,7 +43,7 @@ function Footer() {
 
         {/* Social Media Icons */}
         <Typography>
-          Location :
+          Location here:
         </Typography>
         <Typography>
           <iframe
