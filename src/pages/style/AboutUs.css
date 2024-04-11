@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+.aboutus-page-main{
+    margin:5%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: "Libre Franklin", sans-serif;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* background-color: rgb(0, 139, 139);    */
+}
+
+.aboutus-page-heading{
+    margin-top: 5px;
+    font-weight: 900;
+    color: orangered;
+    /* background-color: orange; */
+}
+.abt-firsthead{
+    width: 100.5vw;
+    height: 70vh;
+    background-color: rgba(170, 243, 243, 0.7);
+    
+}

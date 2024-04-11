@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Lato&family=Poppins:wght@300;400&family=Roboto+Slab:wght@400;700&family=Work+Sans:ital,wght@1,500&family=Ysabeau+Office:ital,wght@0,1;0,100;0,200;0,300;1,200;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+  /* font-size: 18px; */
+  /* font-family: 'Bacasime Antique', serif;
+  font-family: 'Lato', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Roboto Slab', serif;
+  font-family: 'Work Sans', sans-serif;
+  font-family: 'Ysabeau Office', sans-serif; */
+
+ .navbar-toggler{
+  margin-right: 10px;
+ }
+.navbarnam{
+  font-size: 18px; 
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+  
+}
+
+.navbar-nav{
+  padding-left: 30px;
+}
+.navbar-top-company-name{ 
+
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-size: 2rem;
+  font-style: normal;
+  color: orangered;
+   
+}
+.icon {
+  font-size: 40px;
+}
+.nav-link{
+  color: orangered;
+}
+.nav2{
+  background-color: rgb(252, 255, 255);
+}
+@media (max-width: 576px) {
+  .navbar-top-company-name {
+    font-size: 0.8rem; 
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar-top-company-name {
+    font-size: 1.3rem; /* Adjust font size for medium screens */
+  }
+}
