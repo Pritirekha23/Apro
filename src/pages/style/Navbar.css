@@ -12,7 +12,13 @@
   font-family: 'Work Sans', sans-serif;
   font-family: 'Ysabeau Office', sans-serif; */
 
+<<<<<<< HEAD
 
+=======
+ .navbar-toggler{
+  margin-right: 10px;
+ }
+>>>>>>> rupam
 .navbarnam{
   font-size: 18px; 
   font-family: "Libre Franklin", sans-serif;
@@ -21,6 +27,13 @@
   font-style: normal;
   
 }
+<<<<<<< HEAD
+=======
+
+.navbar-nav{
+  padding-left: 30px;
+}
+>>>>>>> rupam
 .navbar-top-company-name{ 
 
   font-family: "Libre Franklin", sans-serif;

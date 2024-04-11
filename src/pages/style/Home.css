@@ -4,7 +4,10 @@
 .home-page-textf{
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
       
+=======
+>>>>>>> rupam
 }
 
 .home-container-page {
@@ -53,10 +56,17 @@ h1{
   display: flex;
   flex-direction: column;
   height: 100%;
+<<<<<<< HEAD
 }
 
 .card-media {
  
+=======
+  /* border-radius: 5px; */
+}
+
+.card-media {
+>>>>>>> rupam
   object-fit: cover; /* Ensure the image covers the entire container */
 }
 
@@ -65,6 +75,7 @@ h1{
   transform: scale(1.1); 
 }
 .card {
+<<<<<<< HEAD
   transition: height 0.5s ease 0.9s;
 }
 
@@ -75,6 +86,16 @@ h1{
 
 
 
+=======
+  transition: height 0.5s ease 0.8s;
+}
+
+.card:hover {
+  transform: scaleY(0.99); 
+  box-shadow: 1px 10px 10px 0px rgba(57, 55, 55, 0.7); 
+} 
+
+>>>>>>> rupam
   /* Responsive styles */
   @media (max-width: 768px) {
    
