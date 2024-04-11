@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import Login from './pages/Login.js';
+import Signup from './pages/Signup.js';
 
 import Mspc from './pages/Components/RAC/Mspc';
 import Tspc from './pages/Components/RAC/Tspc';
@@ -85,6 +87,9 @@ const AppRoutes = () => {
       
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Signup />} />
+
         <Route path="/Wpicon" element={<Wpicon />}/> 
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Menu/pages/Components/RAC/Mspc.js" element={<Mspc />} />

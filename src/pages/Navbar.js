@@ -41,6 +41,8 @@ const Navbar = () => {
             <Nav.Link href="/AboutUs" className="nav-link ">AboutUs</Nav.Link>
             <span className="mx-3"></span>
             <Nav.Link href="/ContactUs" className="nav-link ">ContactUs</Nav.Link>
+            <Nav.Link href="/Login" className="nav-link ">Login</Nav.Link>
+
          
           </Nav>
         </BootstrapNavbar.Collapse>
