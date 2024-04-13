@@ -72,6 +72,7 @@
   height: 50%;
   border-radius: 5%;
   animation: fadeInRight 2s infinite;
+  margin-left: 8%;
 }
 
 @keyframes fadeInRight {
@@ -99,4 +100,33 @@
     display: flex;
     gap: 2%;
     height: 250px;
+  }
+
+  /* onlyservices */
+  .onlyservices{
+    display: flex;
+    gap: 2%;
+    
+  }
+
+  .animate__bounce {
+    animation: bounce 3s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform:translateY(-10px) ;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .hide-on-mobile .b {
+      display: none;
+    }
   }
