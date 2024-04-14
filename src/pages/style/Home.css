@@ -4,7 +4,6 @@
 .home-page-textf{
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-      
 }
 
 .home-container-page {
@@ -53,10 +52,10 @@ h1{
   display: flex;
   flex-direction: column;
   height: 100%;
+  /* border-radius: 5px; */
 }
 
 .card-media {
- 
   object-fit: cover; /* Ensure the image covers the entire container */
 }
 
@@ -65,15 +64,13 @@ h1{
   transform: scale(1.1); 
 }
 .card {
-  transition: height 0.5s ease 0.9s;
+  transition: height 0.5s ease 0.8s;
 }
 
 .card:hover {
-  transform: scaleY(1.05); 
-  box-shadow: 10px 0px 10px 0px rgba(29, 29, 29,0.7); 
+  transform: scaleY(0.99); 
+  box-shadow: 1px 10px 10px 0px rgba(57, 55, 55, 0.7); 
 } 
-
-
 
   /* Responsive styles */
   @media (max-width: 768px) {

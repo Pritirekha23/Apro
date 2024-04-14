@@ -1,9 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './style/Menu.css'
-// import { Link } from 'react-router-dom';
-import { Grid, Card, CardActionArea, CardContent, Typography, CardMedia } from '@mui/material';
 import { Link } from 'react-router-dom';
-import Button from '@mui/material/Button';
+import { Grid, Card, CardActionArea, CardContent, Typography, CardMedia } from '@mui/material';
+// import Button from '@mui/material/Button';
 
 
 const allmenuData = [
@@ -347,16 +347,16 @@ const Menu = () => {
   return (
 
 
-    <Grid className="home-container-page" style={{marginTop:"6%"}}>
+    <Grid className="home-container-page" style={{marginTop:"2%"}}>
 
-      <Grid item xs={12} className="home-page-textf">
+      <Grid item xs={15} className="home-page-textf">
         <h2>ALL Menus are Here</h2>
       </Grid>
 
-      <Grid container className="home-page-images mt-5" spacing={3}>
+      <Grid container className="home-page-images mt-3" spacing={3}>
         {allmenuData.map((menuItem, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 345, background: "#1D2B53", color: "#fff" }}  >
+            <Card sx={{ maxWidth: 345, background: "#2F2F3B", color: "#fff",borderRadius: '3.5%' }}  >
               <CardActionArea >
                 <CardContent >
                   <Typography variant="h5" component="div" className='headingofmenu'>
@@ -385,4 +385,4 @@ const Menu = () => {
   );
 };
 
-export default Menu; 
+export default Menu;

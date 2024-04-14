@@ -9,17 +9,17 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Footer() {
   return (
-    <Grid container className="footer-section-of-AP text-white-50" sx={{ backgroundColor: 'black', color: 'white', padding: '20px' }} spacing={2}>
+    <Grid container className="footer-section-of-AP text-white-50" sx={{ backgroundColor: '#161616', color: 'black', padding: '20px' }} spacing={2}>
       <Grid className="footer-content1 m-auto" item xs={12} sm={6} md={4}>
         <Typography className="footer-logo">
           <img src={logoap} alt="logoap" style={{ maxWidth: '20%', height: 'auto',borderRadius:'25%' }} />
         </Typography>
 
-        <Typography className="footer-adress">F4F-54/4, ID Market Complex, IRC Village,</Typography>
-        <Typography>Nayapalli, Bhubaneswar, Odisha, India</Typography>
-        <Typography style={{color:"white" ,fontWeight:"600"}}>GST No: 21PYNPS5664G1ZO</Typography>
-        <Typography className="f-num">Phone No: +91 6363681250</Typography>
-        <Typography>Email Us: sales@airproindia.in</Typography>
+        <Typography style={{color:"#BDBBB5"}} className="footer-adress">F4F-54/4, ID Market Complex, IRC Village,</Typography>
+        <Typography style={{color:"#BDBBB5"}}>Nayapalli, Bhubaneswar, Odisha, India</Typography>
+        <Typography style={{color:"#BDBBB5" ,fontWeight:"600"}}>GST No: 21PYNPS5664G1ZO</Typography>
+        <Typography style={{color:"#BDBBB5"}} className="f-num">Phone No: +91 6363681250</Typography>
+        <Typography style={{color:"#BDBBB5"}}>Email Us: sales@airproindia.in</Typography>
         <Typography >
           <IconButton href="https://wa.me/6363681250" target="_blank" style={{ color: 'green' }}>
             <WhatsAppIcon />
@@ -71,4 +71,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;

@@ -22,7 +22,7 @@ const cardData = [
     image: 'https://static.wixstatic.com/media/f16a02_66aebf78a3f643af8dae91b8fe0b760a~mv2.jpg/v1/fill/w_483,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f16a02_66aebf78a3f643af8dae91b8fe0b760a~mv2.jpg',
     alt: 'Ingersoll Rand Type 30  Parts',
     heading: 'Ingersoll Rand Type 30 Parts',
-    subheading: ' IR 15T2 Parts , IR 7T2 Parts , IR 231 Parts, IR 7100 Parts, IR 2340 Parts , IR 2475 Parts , IR 2540 Parts ,IR 2545 Parts , IR 3000 Parts',
+    subheading: ' IR 15T2 Parts ,IR 3000 Parts, IR 7T2 Parts , IR 3000 Parts,IR 231 Parts, IR 7100 Parts, IR 2340 Parts , IR 2475 Parts , IR 2540 Parts ,IR 2545 Parts , IR 3000 Parts',
     buttonURL: '/',
   },
   {
@@ -30,7 +30,7 @@ const cardData = [
     image: "https://static.wixstatic.com/media/f16a02_1bc6df37d92241ecb6fc309839de3512~mv2.jpg/v1/fill/w_483,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f16a02_1bc6df37d92241ecb6fc309839de3512~mv2.jpg",
     alt: "Ingersoll Rand Type 30 NL Parts",
     heading: 'Ingersoll Rand Type 30 NL Parts',
-    subheading: '  IR 5T2NL Parts ,IR 10T3NLM Parts',
+    subheading: '  IR 5T2NL Parts ,IR 10T3NLM Parts,IR 3000 Parts,IR 3000 Parts',
     buttonURL: '/',
   },
   {
@@ -61,7 +61,7 @@ const Home = () => {
 
     <Grid className="home-container-page">
 
-      <Grid item xs={12} className="home-page-textf "  style={{  marginTop: '10%' }}>
+      <Grid item xs={12} className="home-page-textf "  style={{  marginTop: '3%' }}>
         <h1>Parts For Compressor | Compressor Parts</h1>
         <Grid item xs={12} md={6} className="mt-5">AIR PRO  - Parts For Compressor is a Global Supplier of OEM Quality New Aftermarket Replacement Air Compressor parts , Parts for Compressor, Ingersoll Rand Air Compressor Parts, Atlas Copco Air Compressor Parts, Chicago Pneumatic Air Compressor Parts from India.
         </Grid>
@@ -70,10 +70,10 @@ const Home = () => {
         </Grid>
       </Grid>
 
-      <Grid container className="home-page-images mt-5" spacing={3}>
+      <Grid container className="home-page-images mt-3" spacing={3}>
         {cardData.map((card, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <Card sx={{ maxWidth: 345 }} className="card">
+            <Card sx={{ maxWidth: 345,borderRadius:'3.5%' }} className="card">
               <CardActionArea >
                 <CardMedia
                   component="img"

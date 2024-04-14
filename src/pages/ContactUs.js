@@ -48,10 +48,7 @@ const ContactUs = () => {
       
     };
 
-    // const formData = new FormData();
-    // formData.append('file', file); 
-    // templateParams.file = formData; 
-
+  
     //send email now
     emailjs.send(serviceId, templateId, templateParams, publicKey).then((response) => {
             console.log('Email sent successfully!', response);
@@ -156,7 +153,6 @@ return (
             onChange={(e)=> setMakeandmodel(e.target.value)}
           />
         </Grid>
-            {/* <br /><br /><br /><br /> */}
 
         <Grid item xs={12} className=' message m-3 p-2'>
           <TextField
@@ -171,13 +167,6 @@ return (
             onChange={(e)=> setMessage(e.target.value)}
           />
         </Grid>
-        {/* <Grid item xs={12}>
-          <input
-           type="file" name="file"
-           value={file}
-            onChange={(e)=> setFile(e.target.files[0])}
-           />
-        </Grid> */}
         <Grid item xs={12} >
           <Button type="submit" variant="contained" className='submit-btn ' sx={{ marginLeft: "40%", background:"blue" }}>
             Submit
