@@ -12,14 +12,14 @@ function Footer() {
     <Grid container className="footer-section-of-AP text-white-50" sx={{ backgroundColor: '#161616', color: 'black', padding: '20px' }} spacing={2}>
       <Grid className="footer-content1 m-auto" item xs={12} sm={6} md={4}>
         <Typography className="footer-logo">
-          <img src={logoap} alt="logoap" style={{ maxWidth: '20%', height: 'auto',borderRadius:'25%' }} />
+          <img src={logoap} alt="logoap" style={{ maxWidth: '20%', height: 'auto', borderRadius: '25%' }} />
         </Typography>
 
-        <Typography style={{color:"#BDBBB5"}} className="footer-adress">F4F-54/4, ID Market Complex, IRC Village,</Typography>
-        <Typography style={{color:"#BDBBB5"}}>Nayapalli, Bhubaneswar, Odisha, India</Typography>
-        <Typography style={{color:"#BDBBB5" ,fontWeight:"600"}}>GST No: 21PYNPS5664G1ZO</Typography>
-        <Typography style={{color:"#BDBBB5"}} className="f-num">Phone No: +91 6363681250</Typography>
-        <Typography style={{color:"#BDBBB5"}}>Email Us: sales@airproindia.in</Typography>
+        <Typography style={{ color: "#BDBBB5" }} className="footer-adress">F4F-54/4, ID Market Complex, IRC Village,</Typography>
+        <Typography style={{ color: "#BDBBB5" }}>Nayapalli, Bhubaneswar, Odisha, India</Typography>
+        <Typography style={{ color: "#BDBBB5", fontWeight: "600" }}>GST No: 21PYNPS5664G1ZO</Typography>
+        <Typography style={{ color: "#BDBBB5" }} className="f-num">Phone No: +91 6363681250</Typography>
+        <Typography style={{ color: "#BDBBB5" }}>Email Us: sales@airproindia.in</Typography>
         <Typography >
           <IconButton href="https://wa.me/6363681250" target="_blank" style={{ color: 'green' }}>
             <WhatsAppIcon />
@@ -35,13 +35,16 @@ function Footer() {
           </IconButton>
         </Typography>
       </Grid>
-      <Grid className="navigation-pages" item xs={12} sm={6} md={4}>
-        {/* <Typography variant="h6">Quick links</Typography>
+
+      <Grid style={{ marginRight: "15%" ,marginTop:"3%"}}>
+        <Typography variant="h6">Quick links</Typography>
         <Typography>Home</Typography>
         <Typography>AboutUs</Typography>
-        <Typography>ContactUs</Typography> */}
-
+        <Typography>ContactUs</Typography>
+      </Grid>
+      <Grid className="navigation-pages" item xs={12} sm={6} md={4}>
         {/* Social Media Icons */}
+
         <Typography>
           Location here:
         </Typography>
@@ -55,15 +58,13 @@ function Footer() {
               maxWidth: '100%',
               width: '80%',
               height: '250px',
-              margin: '0 auto', 
-              // display: 'block',
+              margin: '0 auto',
             }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </Typography>
-
 
       </Grid>
 
