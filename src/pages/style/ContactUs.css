@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    border-radius: 5%;
     
 }
 body {
@@ -38,7 +39,7 @@ body {
 }
 .formmain{
     /* background-color: #1D2B53; */
-    background-color:rgb(36, 157, 66);
+    background-color:#f57c17;
     height: 100%;
     width: 100%;
     max-width: 600px; 

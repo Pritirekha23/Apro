@@ -30,7 +30,7 @@ const cardData = [
     image: "https://static.wixstatic.com/media/f16a02_1bc6df37d92241ecb6fc309839de3512~mv2.jpg/v1/fill/w_483,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f16a02_1bc6df37d92241ecb6fc309839de3512~mv2.jpg",
     alt: "Ingersoll Rand Type 30 NL Parts",
     heading: 'Ingersoll Rand Type 30 NL Parts',
-    subheading: '  IR 5T2NL Parts ,IR 10T3NLM Parts,IR 3000 Parts,IR 3000 Parts',
+    subheading: 'IR 10T3NLM Parts  IR 5T2NL Parts ,IR 10T3NLM Parts,IR 3000 Parts,IR 3000 Parts,IR 10T3NLM Parts,IR 10T3NLM Parts,IR 10T3NLM Parts',
     buttonURL: '/',
   },
   {
@@ -49,7 +49,7 @@ const cardData = [
   },
   {
     image: "https://static.wixstatic.com/media/d7032a_c22fe4a4b172454b8ef25dd2ad4e9e06~mv2.jpg/v1/fill/w_483,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d7032a_c22fe4a4b172454b8ef25dd2ad4e9e06~mv2.jpg",
-    heading: "Chicago Pneumatic Air Compressor Parts",
+    heading: "Chicago Air Compressor Parts",
     subheading: "HN2T 150-180 NP Parts, HN2T 120-215 LP Parts, HN2T HP 40PD Parts, HN2T HP 80PD Parts, HN2T HP 100PD Parts",
     buttonURL: '/',
   }
