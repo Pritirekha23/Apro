@@ -80,7 +80,7 @@ const Home = () => {
                   image={card.image}
                   alt={card.alt}
                   className='card-media'
-                  style={{ height: '150' }} // Adjust image height and width of the card here 
+                  style={{ height: '150' }} 
                 />
                 <CardContent >
                   <Typography variant="h5" component="div" className='home-page-image-heading ' style={{color:"crimson"}}>

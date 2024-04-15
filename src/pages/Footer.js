@@ -36,15 +36,16 @@ function Footer() {
         </Typography>
       </Grid>
 
-      <Grid style={{ marginRight: "15%" ,marginTop:"3%"}}>
-        <Typography variant="h6">Quick links</Typography>
-        <Typography>Home</Typography>
-        <Typography>AboutUs</Typography>
-        <Typography>ContactUs</Typography>
+      <Grid style={{ marginRight: "15%", marginTop: "3%" }}>
+        <Typography variant="h6" style={{ color:'#ffff' }}>Quick links</Typography>
+        <a href="/ContactUs" style={{ textDecoration: 'none' ,color: "#BDBBB5"}}> Home </a><br />
+        <a href="/ContactUs" style={{ textDecoration: 'none' ,color: "#BDBBB5"}}> AboutUS</a><br />
+        <a href="/ContactUs" style={{ textDecoration: 'none' ,color: "#BDBBB5"}}> Contact Us </a><br />
+        <a href="/ContactUs" style={{ textDecoration: 'none' ,color: "#BDBBB5"}}>  FAQ </a>
       </Grid>
+
       <Grid className="navigation-pages" item xs={12} sm={6} md={4}>
         {/* Social Media Icons */}
-
         <Typography>
           Location here:
         </Typography>

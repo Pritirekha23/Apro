@@ -36,7 +36,7 @@ const Login = () => {
           />
 
         </Grid>
-        <Grid item xs={12} sm={6} >
+        <Grid item xs={12} sm={18} >
           <TextField
             fullWidth
             label="Password"
@@ -45,25 +45,18 @@ const Login = () => {
             variant="outlined"         
           />
         </Grid>
-
         <Grid item xs={12} sm={6} >
-          <TextField
-            fullWidth
-            label="Re-Enter Password"
-            name="password"
-            placeholder='Re-Enter Password'
-            variant="outlined"         
-          />
+          <p>Dont't have an account <a href="/Signup" style={{ textDecoration: 'none' ,color: "blue"}}> Signup </a><br /></p>      
         </Grid>
-
         <Grid item xs={12} >
           <Button type="submit" variant="contained" className='submit-btn ' sx={{ marginLeft: "40%", background:"black" }}>
             LOGIN
           </Button>
         </Grid>
       </Grid>
+      <br></br>
+     
     </form>
-
   </Grid>
   );
 };

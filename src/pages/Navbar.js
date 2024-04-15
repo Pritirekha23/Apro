@@ -1,15 +1,9 @@
 import React from 'react';
 import { Navbar as BootstrapNavbar, Nav } from 'react-bootstrap';
-// import { NavDropdown } from 'react-bootstrap';
-// import LogoImage from "./assets/logoap.jpeg";
-// eslint-disable-next-line no-unused-vars
 import LogoImg from "./assets/airprologo.jpeg";
 import LogoImg2 from "./assets/airprologo2.jpeg";
-// eslint-disable-next-line no-unused-vars
 import {IconButton } from '@mui/material';
-// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './style/Navbar.css';
-// eslint-disable-next-line no-unused-vars
 import { Grid} from '@mui/material';
 
 

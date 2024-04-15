@@ -3,15 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-  /* font-size: 18px; */
-  /* font-family: 'Bacasime Antique', serif;
-  font-family: 'Lato', sans-serif; */
-  /* font-family: 'Poppins', sans-serif; */
-  /* font-family: 'Roboto Slab', serif;
-  font-family: 'Work Sans', sans-serif;
-  font-family: 'Ysabeau Office', sans-serif; */
-
 .navbarnam{
   font-size: 18px; 
   font-family: "Libre Franklin", sans-serif;
@@ -39,6 +30,13 @@
 .nav2{
   background-color: rgb(252, 255, 255);
 }
+.navbar-collapse{
+  padding-left: 20px;
+  }
+  
+.navbar-toggler{
+    margin-right: 20px;
+}
 @media (max-width: 576px) {
   .navbar-top-company-name {
     font-size: 0.8rem; 
@@ -47,6 +45,6 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   .navbar-top-company-name {
-    font-size: 1.3rem; /* Adjust font size for medium screens */
+    font-size: 1.3rem;
   }
 }
