@@ -75,6 +75,9 @@ import Hh40pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh40p
 import Hh80pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh80pdp';
 import Hh100pdp from './pages/Components/ChicagoPneumaticAirCompressorParts/Hh100pdp';
 
+//homepage  readmore pages
+import ReciprocatingAirCompressor from './pages/Components/Homereadmore/ReciprocatingAirCompressor';
+
 import Wpicon from './pages/Wpicon.js'
 
 const AppRoutes = () => {
@@ -160,8 +163,13 @@ const AppRoutes = () => {
         <Route path="/Menu/pages/Components/IRACParts/Ir169b7in2p.js" element={<Ir169b7in2p />}/> 
         <Route path="/Menu/pages/Components/IRACParts/Ir547pn.js" element={<Ir547pn />}/> 
         <Route path="/Menu/pages/Components/IRACParts/Ir12127inp.js" element={<Ir12127inp />}/> 
-        <Route path="/Menu/pages/Components/IRACParts/Ir1277pnp.js" element={<Ir1277pnp />}/> 
+        <Route path="/Menu/pages/Components/IRACParts/Ir1277pnp.js" element={<Ir1277pnp />}/>
+
+
+        {/* homepage  readmore pages */}
+        <Route path="/Menu/pages/Components/Homereadmore/ReciprocatingAirCompressor.js" element={<ReciprocatingAirCompressor />}/> 
         
+
 
       </Routes>
     </Router>

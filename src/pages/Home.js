@@ -16,7 +16,7 @@ const cardData = [
     alt: 'ReciprocatingAirCompressor',
     heading: 'Reciprocating Air Compressor',
     subheading: ' Multi Stage Piston Compressor , Two Stage Piston Compressor, Vacuum Compressor, Non Lubricated Three Stage PET Compressor ',
-    buttonURL: '/reciprocating-air-compressor',
+    buttonURL: '/Homereadmore/ReciprocatingAirCompressor.js',
   },
   {
     image: 'https://static.wixstatic.com/media/f16a02_66aebf78a3f643af8dae91b8fe0b760a~mv2.jpg/v1/fill/w_483,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f16a02_66aebf78a3f643af8dae91b8fe0b760a~mv2.jpg',
