@@ -61,7 +61,7 @@ const Home = () => {
 
     <Grid className="home-container-page">
 
-      <Grid item xs={12} className="home-page-textf "  style={{  marginTop: '3%' }}>
+      <Grid item xs={12} className="home-page-textf "  style={{  marginTop: '1%', '@media (max-width: 600px)': { marginTop: '-10%' } }}>
         <h1>Parts For Compressor | Compressor Parts</h1>
         <Grid item xs={12} md={6} className="mt-5">AIR PRO  - Parts For Compressor is a Global Supplier of OEM Quality New Aftermarket Replacement Air Compressor parts , Parts for Compressor, Ingersoll Rand Air Compressor Parts, Atlas Copco Air Compressor Parts, Chicago Pneumatic Air Compressor Parts from India.
         </Grid>
