@@ -18,7 +18,7 @@ function Footer() {
         <Typography style={{ color: "#BDBBB5" }} className="footer-adress">F4F-54/4, ID Market Complex, IRC Village,</Typography>
         <Typography style={{ color: "#BDBBB5" }}>Nayapalli, Bhubaneswar, Odisha, India</Typography>
         <Typography style={{ color: "#BDBBB5", fontWeight: "600" }}>GST No: 21PYNPS5664G1ZO</Typography>
-        <Typography style={{ color: "#BDBBB5" }} className="f-num">Phone No: +91 7657053698</Typography>
+        <Typography style={{ color: "#BDBBB5" }} className="f-num">Phone No: +91 6363681250</Typography>
         <Typography style={{ color: "#BDBBB5" }}>Email Us: sales@airproindia.in</Typography>
         <Typography >
           <IconButton href="https://wa.me/6363681250" target="_blank" style={{ color: 'green' }}>
